@@ -1,0 +1,46 @@
+*{
+    margin: 1px;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/04/Space-Wallpaper-Photos-download-free.jpg');    
+    background-size: 1080px 780px;
+    
+}
+
+.container{
+
+    width: 100%;
+    max-width: 100%;
+    background-color: transparent;
+    backdrop-filter: blur;
+    padding: 35px;
+    border: 2px solid #fff;
+    overflow: hidden;
+    transition: backdrop-filter 0.5s;
+}
+
+.text{
+    color: #fff;
+    position: relative;
+    top: 400px;
+    transition: top 0.5s;
+}
+
+.container:hover .text{
+    top:0;
+
+}
+
+.container:hover{
+    backdrop-filter: blur(10px);
+}
