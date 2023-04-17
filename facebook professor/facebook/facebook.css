@@ -1,0 +1,106 @@
+:root{
+    --cor-branco: white;
+    --cor-cinza: #f0f2f5;
+    --cor-cinza2: #dddfe2;
+    --cor-escuro: #1d2129;
+    --cor-azul: #0655f5;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-cinza);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70vw;
+}
+.conteudo-info{
+    width: 600px;
+
+}
+.conteudo-login{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.conteudo-login-box{
+    background-color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgb(0 0 0);
+    border-radius: 8px;
+}
+.input{
+    padding: 15px;
+    height: 22px;
+    border-radius: 6px;
+    border: 1px solid var(--cor-cinza2);
+    outline: none;
+    width: 90%;
+    font-size: 17px;
+    color: var(--cor-escuro);
+}
+.btn{
+    padding: 10px;
+    border: none;
+    color: var(--cor-branco);
+    border-radius: 5px;
+    width: 100%;
+    font-size: 25px;
+    transform: 2.5s;
+    cursor: pointer;
+}
+
+a{
+    color: var(--cor-azul);
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+hr{
+    width: 100%;
+}
+
+.btn-criar-conta{
+    background-color: rgb(48, 192, 48);
+    width: auto;
+}
+
+.btn-enter{
+    background-color: var(--cor-azul);
+}
+
+h1{
+    color: var(--cor-azul);
+    font-size: 50px;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.btn-enter:hover{
+    background-color: rgb(0, 81, 255);
+}
+
+.btn-criar-conta:hover{
+    background-color: rgb(47, 184, 47);
+}
